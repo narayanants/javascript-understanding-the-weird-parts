@@ -1,0 +1,20 @@
+Objects, Functions and this:
+============================
+
+	Variable Environment
+	Outer Environment ( Outer Lexical Environment)
+	this
+
+	Everytime a function is run, it gives us a variable called this.
+	this points to a different object.
+
+
+	Understanding what is happening under the hood.
+
+	'this' points to global object.
+
+	if 'this' is used inside a function expression or statement.. it refers to the window object
+
+	if 'this' is used inside a method inside the object, it refers to the object it currently resides in.
+
+	Method of an object points to Object.

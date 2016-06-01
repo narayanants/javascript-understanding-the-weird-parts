@@ -1,0 +1,13 @@
+DYNAMIC TYPING:
+===============
+
+	We don't tell JS engine what type of data a variable holds.
+
+Static Typing:
+==============
+
+	You tell compiler the data type of a variable
+
+	var isNew = true;
+	isNew = 'yup';
+	isNew = 1;

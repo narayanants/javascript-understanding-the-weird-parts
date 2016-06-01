@@ -1,0 +1,17 @@
+Existence and Booleans:
+========================
+
+Boolean(undefined) // false
+
+Boolean(null) //false
+
+Boolean("") //false
+
+var a;
+
+a = 'hi';
+a = 0;
+
+if(a || a === 0){
+	console.log('a is something!');
+}

@@ -1,0 +1,8 @@
+Syntax Parsers:
+===============
+
+	JS engine does syntax parsers.
+	reads the code and determines what to do.
+	reads character by character.
+	If encounters something unsual it throws an error.
+	

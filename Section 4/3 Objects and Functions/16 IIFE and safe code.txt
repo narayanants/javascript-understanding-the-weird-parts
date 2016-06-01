@@ -1,0 +1,19 @@
+IIFE and safe code:
+==================
+
+var firstname = 'JOhn';
+(function(name){
+	var greeting = 'Hello';
+	console.log(greeting + ' ' + name);
+}(firstname));
+
+Execution stack:
+===============
+
+	code loaded and has global execution context.
+	Hits IIFE
+	When hits functions, does creation phase
+	sees those paraenthesis, new execution context is created.
+	
+
+	

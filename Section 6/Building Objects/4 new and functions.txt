@@ -1,0 +1,6 @@
+'new' and functions
+--------------------
+
+	Function constructors must start with a capital letter.
+
+

@@ -1,0 +1,36 @@
+Function Constructors and Prototype:
+==================================
+
+How to set Prototype for us?
+
+	When we use a Function constructor, it already sets the Prototype for us.
+
+	Functions is a special type of object.
+
+	Name
+	Code
+
+	* All functions have prototype property.
+
+	* Starts as an empty object.
+
+	* As soon as  a new operator is , then it is called.
+
+	* Available inside the function constructor.
+
+	* __proto__ to get access to the prototype
+
+	* prototype property of the function is NOT the prototype of the function.
+
+	* To create a new prototype for every object created using 'new', we use class_name.prototype.method
+
+	* This is shared among all objects.
+
+	* Instead of creating methods inside the function, which is created everytime a new object is created using 'new' operator.. we set those methods in the prototype so that other object created using 'new' can share the same method without creating it again.
+
+	* saves memory space
+
+
+
+
+

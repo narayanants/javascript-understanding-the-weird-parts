@@ -1,0 +1,31 @@
+Comparison Operators:
+=====================
+console.log(1<2<3); //true
+console.log(3<2<1); // true
+console.log(false<1);
+
+
+false converted  to a number becomes 0
+
+
+false == 0 // true
+
+null = 0 // false
+
+null < 1 // true
+3 == 3 //true
+"3" == 3 // true
+
+"" == 0 // true
+"" = false // true
+
+strict equality ===
+strict inequality !==
+
+"3" === "3" // true
+"3" === 3 // false
+
+99% of time use "==="
+
+
+

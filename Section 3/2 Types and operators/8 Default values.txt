@@ -1,0 +1,18 @@
+Default values:
+===============
+
+Variable is not set. Value is set to undefined.
+
+function greet(name){
+	name = name || '<your name here>';
+	console.log('Hello' + name);
+}
+
+greet('Tony'); // Hello tony
+greet(); // undefined
+
+null || "hello"
+
+Hello Tony
+Hello ""
+

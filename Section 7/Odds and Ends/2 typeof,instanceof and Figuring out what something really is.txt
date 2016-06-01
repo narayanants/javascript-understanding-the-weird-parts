@@ -1,0 +1,25 @@
+typeof,instanceof and Figuring out what something really is:
+=============================================================
+
+	Dynamic typing in JS work
+
+	What if we want to know the type of a variable.
+
+	We use typeof, instanceof
+
+	call() - invoke this function but tell what 'this' should point to.
+
+	
+
+	type of number is number
+	type of string is string
+	type of object is object.
+	type of array is object.
+	Object.prototype.toString.call() - this returns type as array.
+	type of object created using 'new' keyword is an object.
+	type of function statement is an object.
+	type of Function expression is a function.
+	type of undefined is undefined.
+
+	instance of new object is the parent object.
+

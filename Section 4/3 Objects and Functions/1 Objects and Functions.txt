@@ -1,0 +1,50 @@
+Objects and Functions:
+=====================
+
+They are almost same in JS
+
+Objects:
+========
+
+	A collection of name/value pairs which can contain other name/value pairs
+
+How Object resides in computer Memory:
+========================================
+
+	Primitive(Property)
+ 	Object(Property)
+ 	Functions(Methods)
+
+ 	Sit in Memory.
+ 	Have references to address of the Property and methods in the JS.
+
+ 	Computer Member access operator (. => Left to right associativity)
+ 	===============================
+
+ 	var person = new Object();
+
+	person["firstname"] = "Tony"; // object gets a reference to the address of the location in memory.
+	person["lastname"] = "Alicea";
+
+	var firstNameProperty = "firstname";
+
+	console.log(person); // Object
+	console.log(person[firstNameProperty]); // Tony
+
+	console.log(person.firstname); // Tony
+	console.log(person.lastname); // Alicea
+
+	person.address = new Object();
+
+	person.address.street = "111 Main St.";
+	person.address.city = "New York";
+	person.address.state = "NY";
+
+	console.log(person.address.street);
+	console.log(person.address.city);
+	console.log(person["address"]["state"]);
+
+	Always use dot opertor for member access.
+
+
+

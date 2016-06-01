@@ -1,0 +1,25 @@
+JSON and Object Literals:
+=========================
+
+ Javascript Object Notation => JSON
+
+ 	<object>
+ 		<firstname>Mary</firstname>
+ 		<isAProgrammer>true</isAProgrammer>
+ 	</object>
+
+ 	// Loss of bandwidth due to unnecessary data download
+
+ 	// Valid Object Literal Syntax
+	{
+		"firstname":'Mary',
+		"isAProgrammer":true
+	}
+
+	name's must be wrapped in quotes ( MUST IN JSON)
+
+	Anything that JSON valid is  JS Object valid but not vice versa.
+
+	For converting Object literals to JSON string we use JSON.stringify()
+
+	JSON.parse() takes a JSON string and converts to a JS Object.

@@ -1,0 +1,42 @@
+Functions, context and variable environments:
+=============================================
+
+	Variable Environments: (where is the variable)
+	=======================
+
+	where the variables live and how they relate to each other in memory.
+
+		function b(){
+			var myVar;
+		}
+		function a(){
+			var myVar = 2;
+			b();
+		}
+		var myVar = 1;
+		a();
+
+		Global exection context is created and code executed myVar = 1
+		a() is invoked during it execution context
+		myVar is set to 2
+		b() is invoked
+		myVar is set to undefined.
+
+		Scopes:
+		=======
+			Each of the myVar has its own execution context.
+
+
+			function b(){
+			    var myVar;
+			    console.log(myVar);
+			}
+			function a(){
+			    var myVar =2;
+			    console.log(myVar);
+			    b();
+			}
+			var myVar = 1;
+			console.log(myVar);
+			a();
+			console.log(myVar);

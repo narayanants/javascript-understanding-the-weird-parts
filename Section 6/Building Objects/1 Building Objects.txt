@@ -1,0 +1,34 @@
+Building Objects:
+==================
+
+	Function constructors, 'new' and the history of JS
+	==================================================
+
+	JS was built by Brenden Hike.
+
+	called Javascript to call JAVA developers.
+
+	Netscape.
+	Microsoft.
+	Oracle and Sun Microsystems.
+	ECMAScript.
+
+	var john = new Person();
+
+	* Java developers used to create objects using the 'new' keyword.
+
+	* Class in java is not an object but defined it.
+
+	* use new to create a new object from that class.
+
+	* Class in Java is not the same as in JS.
+
+
+
+	
+
+
+
+
+
+

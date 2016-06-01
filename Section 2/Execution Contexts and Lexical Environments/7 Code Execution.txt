@@ -1,0 +1,17 @@
+Execution Phase:
+================
+
+	Global object
+	this
+	outer env
+
+	Runs your code:
+	===============
+
+		Interpreting it
+		Compiling it
+		Parsing it
+		Executing it
+
+		to something the comp understands.
+

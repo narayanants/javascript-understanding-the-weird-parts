@@ -1,0 +1,42 @@
+Asynchronnous Callbacks:
+=======================
+
+	Asynchronnous:
+	==============
+
+		* More than one at a time.
+
+		Javascript Engine:
+		==================
+
+		Has hooks with:
+
+			* Rendering Engine
+			* HTTP Request
+
+			DOM Engine
+			CSS	Engine
+
+	Global Execution Context:
+
+	Event Queue:
+	===========
+
+		Browser outside the JS engine has an event inside the JS engine to be notified of.. is placed on the queue
+		Click - 
+
+	CODE:
+	=====
+
+	function waitThreeSeconds(){
+		var ms = 3000 + new Date().getTime();
+		while(new Date() < ms){}
+		console.log('finished function');
+	}
+	function clickHandler(){
+		console.log('click event');
+	}
+	document.addEventListener('click',clickHandler);
+	waitThreeSeconds();
+	console.log('finsihed execution');
+

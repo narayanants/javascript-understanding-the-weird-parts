@@ -1,0 +1,13 @@
+ES6 and classes:
+================
+
+	New concept in ECMAScript 6 has a new concept coming called 'classes'.
+
+	Classes in JS are called 'Syntatic Sugar'.
+
+	Syntatic Sugar:
+	===============
+
+	 A different way to type something that doesn't change how it works.
+
+	 

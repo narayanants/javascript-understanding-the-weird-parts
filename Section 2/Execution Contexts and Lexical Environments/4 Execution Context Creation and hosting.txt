@@ -1,0 +1,44 @@
+Creation and Hosting:
+---------------------
+
+	var a = 'hello world';
+	function b(){
+		console.log(a);
+	}
+	b();
+	console.log(a);
+
+	Execution context is created in two phases
+
+		Creation Phase:
+		===============
+
+			Global Object
+			this
+			Outer env
+
+			Recognizes where you have created variables and functions
+
+			Setups memory space for variables and functions 'Hosting'
+
+			Before code begins executed, JS engine sets up memory for variables and functions.
+
+			When code begins to execute, it can be accessed.
+
+		Execution Phase:
+		================
+
+				b();
+				console.log(a); // Parser says I DON'T KNOW ITS VALUE!! SETTING IT TO UNDEFINED.
+				var a = 'Hello World!';
+				function b() {
+				    console.log('called b');
+				}
+
+
+
+
+
+		JS engine doesn't know it value so it defaults to 'undefined'
+
+		All JS variables are initially set to 'undefined'

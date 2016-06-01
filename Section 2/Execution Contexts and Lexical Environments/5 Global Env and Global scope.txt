@@ -1,0 +1,25 @@
+Global scope:
+=============
+
+Execution context(global)
+
+	creates a global object
+	creates a special variable 'this'
+
+	window object is the default global object of this in browser.
+
+	Global object available to the whole program.
+
+	Global object(window) = this
+
+	Global is not inside a function.
+
+	When the JS engine runs your code :
+	=================================
+
+		it creates a global object when not inside a function.
+		When running your code inside a browser, the global object is this.
+		Outer environment.
+
+		Finally your code is run.
+

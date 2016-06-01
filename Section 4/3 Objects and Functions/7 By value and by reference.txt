@@ -1,0 +1,28 @@
+By value and by reference:
+==========================
+
+	a has an address value of its primitive type.
+	b=a (points to new address and a copy is made with same value)
+
+By Value:
+========
+
+	By copying the value, into 2 separate spots in memory
+
+By reference:
+=============
+
+	a points to a object
+
+	if we do b = a, then we do b is reference the object.
+
+	All objects interact by reference.
+
+
+	Mutate = to change something.
+
+	immutable means it can't be changed.
+
+	All primitives are by value.
+
+	All functions and objects are by reference.

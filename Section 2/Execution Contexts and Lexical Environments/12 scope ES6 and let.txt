@@ -1,0 +1,24 @@
+Scope, ES6 and let
+=================
+
+Scope is where a variable is availabe in your code.
+
+and if it's truly the same variable or a new copy.
+
+ECMAScript 6:
+=============
+
+	New way of declaring variables using 'let'
+
+	'let' allow JS engine to use block scoping.
+
+	if(a > b){
+		let c = true;
+	}
+
+	Not allowed to use it until the line of  code is run during execution phase that acutally declares the variable.
+
+	Declared inside a block.
+
+	
+

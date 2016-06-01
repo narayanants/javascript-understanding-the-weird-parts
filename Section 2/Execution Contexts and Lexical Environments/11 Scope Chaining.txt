@@ -1,0 +1,56 @@
+Scope Chaining:
+=================
+
+	function b(){
+		console.log(myVar);
+	}
+	function a(){
+		var myVar = 2;
+		b();
+	}
+	var myVar = 1;
+	a();
+
+	OUTPUT: 1
+	======
+
+	expected output: undefined
+
+	Execution stack: global level as 1
+	a(): myVar = 2
+	b() myVar
+
+	* Every execution context has a reference to its outer environment.
+
+	outer execution context of b is global
+	outer execution context of a is global
+
+	Lexical environment: (outer environment)
+	====================
+
+		b() is sitting lexically on top of global.
+
+		If the execution context can't find the variable, it goes to the global object.
+
+	* scope means where can I  access that variable
+
+	* chain means those links that outer env is referenced.
+
+	function a() {
+	    function b() {
+	        console.log(myVar);
+	    }
+		var myVar = 2;
+		b(); // reference to outer lexical environment which is a()
+	}
+
+	var myVar = 1;
+	a();
+	b(); // b is not defined.
+
+	OUTPUT: 2
+	=======
+
+	outer lexical environment of b is now a which is physically sitting out.
+	outer lexical environment of a is now global which is physically sitting out of it.
+

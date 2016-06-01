@@ -1,0 +1,6 @@
+Arrays and for in:
+==================
+
+	using for..in loop in arrays results in getting the index as name in name/value pairs.
+
+	Never use for in for Arrays.

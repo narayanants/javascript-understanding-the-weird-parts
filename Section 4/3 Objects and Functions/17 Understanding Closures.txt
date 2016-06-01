@@ -1,0 +1,19 @@
+Understanding Closures:
+=======================
+
+Closures:
+=========
+
+	Under the hood:
+
+	Function is hoisted in global execution context
+	Invokes greet and new execution context is created
+	whattosay get params from function
+	greet execution context is poped off after its execution
+	But whattosay has hi in memory still.
+
+	execution context is closed in its outer variables.
+	sayHi('Tony') has access to whattosay hi value.
+
+	
+

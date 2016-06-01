@@ -1,0 +1,12 @@
+Everything is an object:
+========================
+
+	var a= {};
+	var b = function(){};
+	var c =[];
+
+	a.__proto__  (toString())
+	b.__proto__  (call(),apply(),bind())
+	c.__proto__  (pop,push,indexOf)
+
+	

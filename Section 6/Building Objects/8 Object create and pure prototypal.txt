@@ -1,0 +1,31 @@
+Object.create and pure prototypal:
+==================================
+
+	JS also uses pure prototypal inheritance.
+
+	Object.create()
+
+	Building the same things differently.
+
+
+	If we make a object using Object.create().
+
+	override properties and methods on those object.
+
+	Base object properties and methods side inside prototype of the derived object.
+
+
+	Polyfill:
+	=========
+
+		Code that adds a feature that the JS engine may lack.
+
+		Adding new feature that older JS engine may not have.
+
+	Object.create():
+	================
+
+	create a object and use this object as prototype for other object.
+	
+
+

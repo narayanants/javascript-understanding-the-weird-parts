@@ -1,0 +1,16 @@
+Conceptual Aside:
+
+Single threaded synchronous execution:
+--------------------------------------
+
+	Single Threaded:
+	================
+
+		One command is executed at a time.
+
+		under the hood, may be not.
+
+	Synchronous Execution:
+	======================
+
+		And in order....

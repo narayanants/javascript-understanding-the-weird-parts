@@ -1,0 +1,26 @@
+JS and undefined:
+=================
+
+	Global object
+	this
+	outer env
+
+	Hoisting:
+	===========
+
+		Setup variables(undefined by default) and functions setup
+
+		var a;
+		console.log(a); // undefined
+
+		undefined and not defined are not same.
+
+		undefined is a special value which JS uses internally which means the variable has not been set.
+
+		Execution context saw var a and set it up in memory.
+
+		Never do a = undefined
+
+		Never set a variable to undefined.
+
+		undefined is a special value that a variable receive during the creation phase of execution context.

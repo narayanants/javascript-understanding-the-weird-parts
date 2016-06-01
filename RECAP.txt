@@ -1,0 +1,143 @@
+Objects are a collection of name value pairs
+
+Hoisitng is setting up memory space for variables and functions.
+
+variables are initially set to undefined.
+
+Primitive types:
+================
+
+undefined
+null
+boolean
+Number
+String
+
+Operator precedence (priority)
+Operator Associativity(order)
+Coerision(changing value from one type to to another)
+
+Objects and Functions
+=====================
+
+Parameters are set to undefined if no value is specified.
+
+Object Literal({})
+Primitive(Property)
+Object(Property)
+Functions(Methods)
+
+Namespace: container for variables and functions To keep variables and functions with same name separate.
+JSON has strict syntax
+
+JSON.stringify() - convert JS object to JSON
+JSON.parse() - convert JSON to JS object
+
+Functions:
+==========
+
+In JS, Functions are objects
+Can add Primitive, Property and Methods
+
+Function Expression
+Function Statement
+
+First class functions => In JS, functions are Objects.
+Function is a special type of object.
+
+
+Expression => unit of code that results in a value. It doesn't have to save to a variable.
+
+By Value => By copying the value, into 2 separate spots in memory
+By reference => a points to a object. All objects interact by reference.
+
+Mutate = to change something.
+
+immutable means it can't be changed.
+
+All primitives are by value.
+
+All functions and objects are by reference.
+
+JS doesn't support function overloading.
+
+Always put your own semi colon's. 
+
+Add comments to make it more understandable.
+
+Immediately Invoked Function Expression (IIFE) - run/invoke immediately after creation
+
+() at end of function creation immediately invokes  the function.
+
+Closures - execution context still have access to its outer variables even after its execution context is over.
+
+Callback - Function you give  to another function to be run, when the other function is finished.
+
+
+call() and apply() - allows to invoke the function and set the this keyword.
+bind() - creates acopy of  the function and attaches this to it.
+
+Function currying - creating a copy of the function with default set of Parameters.
+
+Functional Programming - underscore.js and lodash.js
+
+Classical Inheritance: similar to the Inheritance in other programming languages.
+
+Prototypal Inheritance: an object can access the properties and methods of other objects.
+
+Prototypal chain - access to property and methods down the chain.
+
+Looks for current object and if it doesn't find it, it looks for the parent class.
+
+Reflection: An object can look at itself listing and changing it properties and methods.
+
+using Underscore.js, we use _.extend() to combine all properties and methods of objects into a single object.
+
+we can use reflection with the extend pattern not just the prototypal pattern.
+
+JS was built by Brenden Hike.
+
+When we use 'new' operator, it creates a brand new object and points 'this' to that brand new object.
+
+If nothing is returned from that function, it returns that empty object.
+
+Function constructors are just normal functions used to construct objects.
+
+The 'this' keyword points to a new empty object, and that object is returned from the function automatically.
+
+Function constructors must start with a capital letter.
+
+Never use built in function constructors.
+
+Never use for..in loops for Arrays.
+
+Polyfill: Code that adds a feature that the JS engine may lack.
+
+Syntatic Sugar: A different way to type something that doesn't change how it works.
+
+Odd and Ends:
+=============
+
+	type of number is number
+	type of string is string
+	type of object is object.
+	type of array is object.
+	Object.prototype.toString.call() - this returns type as array.
+	type of object created using 'new' keyword is an object.
+	type of function statement is an object.
+	type of Function expression is a function.
+	type of undefined is undefined.
+
+	instance of new object is the parent object.
+
+	
+
+
+
+
+
+
+
+
+
+

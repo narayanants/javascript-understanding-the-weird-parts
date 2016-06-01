@@ -1,0 +1,8 @@
+Whitespace:
+============
+
+invisible characters that create  literal  'space' in your code.
+
+carriage returns,tabs,spaces
+
+JS syntax parsers is very liberal of whitespace.

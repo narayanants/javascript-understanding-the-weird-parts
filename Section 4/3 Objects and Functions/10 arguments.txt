@@ -1,0 +1,28 @@
+Arguments:
+==========
+
+	Execute a function , a new execution context is created
+
+	Variable env
+	this
+	outer env
+	arguments
+
+	arguments hold all those value we pass to those functions.
+
+	Arguments:
+	=========
+
+		The params you pass to a function
+
+		JS gives a keyword of the same name which contains them all.
+
+	New version of arguments:
+	========================
+		// creates a array of parameters
+		function greet(firstname,lastname,language, ...others){
+
+		}
+
+
+	

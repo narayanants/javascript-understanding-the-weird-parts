@@ -1,0 +1,52 @@
+Function execution and the execution stack:
+---------------------------------------------
+
+	Function Invocation:
+	====================
+
+		Invo WhAt?!?
+
+			Running a function.
+
+		In JS, by using a paraenthesis().
+		JS to invoke the function.
+
+
+	What happens when you invoke a function:
+	========================================
+
+	function b(){
+
+	}
+	function a(){
+		b(); //Execution context create and execute
+	}
+	a(); //Execution context create and executes
+
+	global execution context is created and code is executed.
+	parser parses the code and compiles and interprets.
+
+	 * global object
+	 * this
+	 * outer env
+	 * setup the memory phase for them.
+	 * code executed line by line.
+
+	 * A new exection context is created and place of the execution stack.
+	 * One that is on the top is the one currently running.
+	 * any time you invoke a function, a new execution context is created and put on execution stack.
+	 * If it encounters another function inside it, it stops and creates a new execution context on top of it.
+
+	 function a(){
+	 	b();
+	 	var c;
+	 }
+	 function b(){
+	 	var d;
+	 }
+	 a(); // invokes function a.. puts it on execution stack
+	 var d;
+
+
+
+

@@ -1,0 +1,8 @@
+Function Factories:
+===================
+
+	Use Closures to our advantage.
+
+	Taking advantage of closures to make factory functions.
+
+	

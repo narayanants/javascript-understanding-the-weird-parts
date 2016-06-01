@@ -1,0 +1,23 @@
+Call, apply, bind:
+=================
+
+	Variable env
+	this
+	outer env
+
+	All functions have access to
+
+		call() - // let you control what this means.
+		apply() // takes this and an array of parameters.
+		bind() - creates a copy of the function you are calling it on and what ever methods you pass it on.
+
+
+	Function currying:
+	==================
+
+		creating a copy of function but with some present parameters.
+		very useful in mathematical situations.
+
+
+
+

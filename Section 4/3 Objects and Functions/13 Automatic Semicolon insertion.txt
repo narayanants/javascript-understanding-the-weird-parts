@@ -1,0 +1,8 @@
+auto semicolon insertion
+========================
+
+	Always avoid it.
+	Good code always contain manually added semi-colon
+	Semicolon is optional in core JS.
+	It knows what the synatx should look like.
+	Inject auto semicolon for you.

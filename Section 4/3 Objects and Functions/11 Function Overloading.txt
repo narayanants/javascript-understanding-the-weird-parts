@@ -1,0 +1,6 @@
+Function Overloading:
+====================
+
+	Function with same name with different arguments.
+
+	JS doesn't support function overloading.

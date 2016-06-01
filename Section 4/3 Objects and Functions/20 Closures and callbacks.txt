@@ -1,0 +1,7 @@
+Closures and Callbacks:
+======================
+
+	Callback function:
+
+		* Function you give to another function to be run, when the other function is finished.
+		* So the function you call, calls back by calling the function you gave when it finishes.

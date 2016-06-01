@@ -1,0 +1,17 @@
+Strict Mode:
+============
+
+	Tell the JS engine to process the code in a stricter way.
+
+	Implement some extra rules when parsing my code.
+
+	Useful for strict code is that.
+
+	Declare a variable before using it.
+
+	Goes inside either top of the file or top of the function.
+
+	If we have lots of JS files and Minify and combine them
+
+	If the first file has 'use strict' then the whole JS file complies to strict mode of execution.
+	

@@ -1,0 +1,15 @@
+Coerision:
+===========
+
+	converting a value from one type to another.
+
+	happens often in JS because it's dynamically typed.
+
+
+	var a = 1 + '2';
+	console.log(a);
+
+	OUTPUT:
+	=======
+
+	'12' // string

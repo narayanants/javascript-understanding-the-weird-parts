@@ -1,0 +1,6 @@
+Initialization:
+===============
+
+	* Array Literals, Object Literals and functions expressions.
+	* Watch out for correct comma's and semicolon when using Array and object literals.
+	

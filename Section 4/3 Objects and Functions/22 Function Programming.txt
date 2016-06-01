@@ -1,0 +1,5 @@
+Functional Programming:
+=======================
+
+	One of the most important concepts of Advanced JS.
+	

@@ -1,0 +1,14 @@
+Primitive types:
+----------------
+
+	A type of data that represents a single value.
+
+	That is, not a object
+
+
+	undefined - represents a lack of existence. Never set a variable to it
+	null - null represents a lack of existence.
+	Boolean - true/false
+	Number - Floating point number
+	String - A sequence of characters.
+	Symbol - new in ES6(next version of JS)

@@ -1,0 +1,36 @@
+Function statements and Expressions:
+====================================
+
+Concept of First class functions
+
+Usage difference:
+=================
+
+Expression: 
+	unit of code that results in a value.
+	It doesn't have to save to a variable.
+
+var b = if(a === 3){} // not a expression..it is a statement
+
+Function statements:
+--------------------
+
+	greet();
+
+	/* Function statement */
+
+	function greet(){
+		console.log('hi');
+	}
+
+	/*Function Expression*/
+
+	var anonymousGreet = function(argument) {
+		// body...
+	}
+
+	Puts the object into memory and the variable point the anonymousGreet function to the address of the function.
+	anonymousGreet();
+
+	Function expression creates an object on the fly.
+	

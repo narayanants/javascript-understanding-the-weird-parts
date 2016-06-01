@@ -1,0 +1,8 @@
+Immediately Invoked Function expressions:
+==========================================
+
+	Function Statement and Expression needs manual invoking.
+
+	() at end of function immediately invokes  the function.
+
+	wrapped all code in a function, created on fly and invoke it immediately.

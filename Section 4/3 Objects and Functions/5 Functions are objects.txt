@@ -1,0 +1,26 @@
+Functions are Objects:
+=====================
+
+First class functions => In JS, functions are Objects.
+
+First class functions:
+=====================
+
+	Everything you can do with other types you can do with functions.
+
+	Assign them to variables, pass them around, create them on the fly.
+
+	Function is a special type of object.
+
+	Attach properties and method to a function because it is an object.
+
+	Primitive
+	Object
+	Function
+
+	Name (can be optional, anonymous)
+	Code => actual lines of code that you wrote
+
+	During creation phase, the function object was put in memory onto global object
+	Had a name called greet.
+	Had a code which contains the function body.

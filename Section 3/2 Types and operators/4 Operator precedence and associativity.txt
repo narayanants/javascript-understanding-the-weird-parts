@@ -1,0 +1,24 @@
+Operator precedence: (priority)
+=====================
+
+	which operator function gets called first where there are more than one.
+
+	Functions are called in order of precedence(HIGHER precedence wins).
+
+
+Associativity: ( order )
+=============
+	
+	Come into play 2 or more operator have the same precedence.
+
+	* Left to right
+	* Right to left
+	
+	what order a operator gets called in.
+
+	var a = 2, b = 3, c = 4;
+	a=b=c;
+	a=4
+	console.log(a)
+	console.log(b)
+	console.log(c)

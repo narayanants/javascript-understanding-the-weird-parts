@@ -1,0 +1,24 @@
+Faking Namespaces:
+===================
+	
+	Namespace:
+	===========
+
+		Container for variables and functions
+
+		To keep variables and functions with same name separate.
+
+		var greet = 'Hello!'; // 1st page
+		var greet = 'Hola!'; // 2nd page
+
+		console.log(greet);
+
+		var english = {};
+		var spanish = {};
+
+		//They don't collide each other
+		english.greet = 'Hello'; 
+		spanish.greet = 'Hola!';
+
+
+

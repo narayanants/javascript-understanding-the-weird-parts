@@ -1,0 +1,55 @@
+Classical vs Prototypical inheritance:
+======================================
+
+Classical vs Prototypical:
+==========================
+
+	Inheritance:
+	============
+
+	* One object gets access to properties and methods of other objects.
+	* Different from other programming langauges.
+
+
+	Classical Inheritance:
+	======================
+
+		Currently known and best popular.
+		Verbose.
+		Generally used across programming languages.
+
+	Prototypical Inheritance:
+	========================
+
+		Very flexible.
+		Extensible.
+		easy to understand.
+
+		obj in memory. (accessed using member access operator)
+		======================================================
+			* properties
+			* methods
+
+		JS objects add hidden properties and methods.
+
+		All objects and functions have a prototype property.
+		property is a reference to another object called '__proto__'.
+
+		obj.prop2
+
+		. operator looks for prop2 in obj doesn't find it and look at prototype.
+
+		It finds and returns it.
+
+		Down the prototype chain.
+
+		OBJECTS CAN SHARE PROTOTYPE AMONG THEM.
+
+		
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+Operators:
+==========
+
+	special function that is syntatically written differently
+
+	take 2 parameters and return a result.
+
+	Dynamically typed since we don't know the data type of the variable

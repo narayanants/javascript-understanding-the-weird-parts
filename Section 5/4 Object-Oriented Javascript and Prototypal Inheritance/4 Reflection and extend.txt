@@ -1,0 +1,7 @@
+Reflection and extends:
+=====================
+
+	extends:
+	========
+
+		An object can look at itself listing and changing it properties and methods.

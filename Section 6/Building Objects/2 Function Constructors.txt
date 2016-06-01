@@ -1,0 +1,21 @@
+Function constructors:
+======================
+
+	Right way to create objects in JS.
+
+	'new' is an operator.
+
+	when we use 'new', immediately an empty object is created and then it invokes the function.
+
+	Here it changes where this variable points to.
+
+	'this' points to the empty object.
+
+	As long as function doesn't returns that object that was created by the new variable.
+
+	Function constructors are just functions.
+
+	Function constructors are just normal functions used to construct objects.
+	==========================================================================
+
+	The 'this' keyword points to a new empty object, and that object is returned from the function automatically.

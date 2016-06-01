@@ -1,0 +1,20 @@
+Built-in function constructors:
+===============================
+
+	var a = new Number("3");
+
+	//Number {[[PrimitiveValue]]: 3}
+
+	Number.prototype
+
+	a.toFixed(2)
+
+	var b = new String();
+
+	b.charAt(2);
+
+	var d = new Date("3/12/2016");
+
+	equivalent to
+	
+	Date.prototype.functions()
