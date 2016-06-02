@@ -1,0 +1,9 @@
+Typescript, ES6 and Transpiled languages:
+=======================================
+
+
+	Transpile:
+
+		To convert the syntax of one programming language to another
+
+		In this case, langs don't really run everywhere, instead processed by the transpiler  to generate JS.

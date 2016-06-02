@@ -1,0 +1,14 @@
+Deep dive into jQuery Part 2:
+=============================
+
+	Inside jQuery it has a new library called 'Sizzle JS'.
+
+	Immediately invoked Function execution inside IIFE.
+
+	Method Chaining:
+	================
+
+		calling one method after another each one affects the parent.
+		so obj.method1() and obj.method2() where both methods end up with 'this' variable pointing at he obj.
+
+		

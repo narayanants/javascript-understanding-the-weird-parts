@@ -1,0 +1,5 @@
+Our Object and its prototype:
+============================
+
+
+	Setting up the Greetr lib.

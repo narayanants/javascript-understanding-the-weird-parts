@@ -1,0 +1,21 @@
+Let's build a framework:
+========================
+
+
+	Name: Greeter
+
+		When I am given a 
+
+			firstname
+			lastname
+			optional language
+
+		It generates a formal and informal greetings.
+
+		Support English and Spanish languages
+
+		Resuable library/framework.
+
+		Easy to type "G$()" structure
+
+		Support jQuery.

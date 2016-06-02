@@ -1,0 +1,21 @@
+Deep dive into jQuery:
+======================
+
+	jQuery deals with cross-browser issue.
+
+	Manipulate the DOM.
+
+	DOM is the lets the browser to look at HTML and decide to rendering it on the screen.
+
+
+	jQuery function isn't a function constructor.. It's just a function
+
+	So no need to use new operator.
+
+	Returns an object by calling the function constructor.
+
+	Function that returns a call to a function constructor.
+
+	fn is pointing to the same memory spot of the jQuery prototype.
+
+	

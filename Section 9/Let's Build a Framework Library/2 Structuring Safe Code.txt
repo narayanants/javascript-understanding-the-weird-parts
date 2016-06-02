@@ -1,0 +1,4 @@
+Structuring Safe Code:
+======================
+
+	Use IIFE to structure Safe code.

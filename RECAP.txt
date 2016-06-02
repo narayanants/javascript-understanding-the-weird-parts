@@ -130,7 +130,16 @@ Odd and Ends:
 
 	instance of new object is the parent object.
 
-	
+Let's Build a framework:
+=======================
+
+	; before IIFE..another trick
+
+	If another library injected before the script file.
+
+	Your code will just run fine.
+
+
 
 
 
