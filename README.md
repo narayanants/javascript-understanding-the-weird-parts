@@ -1,3 +1,2 @@
-# JavaScript: Understanding the weird parts by Anthony Alicea Udemy
-
-JS The weird parts Source code by Anthony Alicea Udemy
+# JavaScript: Understanding the weird parts
+JS The weird parts Source code
